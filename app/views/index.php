@@ -44,7 +44,5 @@ if ( ! defined( 'APP' ) ) {
 		<p><span class="gmail"><a href="mailto:hi@akshitsethi.com">Email</a></span></p>
 		<p><span class="twitter"><a href="https://twitter.com/akshitsethi" target="_blank">Twitter</a></span></p>
 		<p><span class="github"><a href="https://github.com/akshitsethi" target="_blank">&lt;github&gt;</a></span></p>
-		<p><span class="facebook"><a href="https://www.facebook.com/akshitsethi" target="_blank">Facebook</a></span></p>
-		<p><span class="linkedin"><a href="https://in.linkedin.com/in/akshit-sethi-68bab816" target="_blank">Linkedin</a></span></p>
 	</div><!-- .social -->
 </div><!-- .content-about -->
