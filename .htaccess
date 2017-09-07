@@ -1,0 +1,12 @@
+ErrorDocument 403 http://www.akshitsethi.com/403.php
+ErrorDocument 404 http://www.akshitsethi.com/404.php
+ErrorDocument 500 http://www.akshitsethi.com/500.php
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
