@@ -24,8 +24,10 @@ define( 'APP_PATH', dirname( __FILE__ ) );
 
 
 /**
- * Load the application configuration.
+ * 1 Load the application configuration.
+ * 2 functions.php for common application functions.
  * -----------------------------------------------------------------------------------
  */
 
-require_once APP_PATH . '/app/include/config.php';
+require_once APP_PATH . '/app/include/config.php'; 					// 1
+require_once APP_PATH . '/app/include/functions.php'; 				// 2
