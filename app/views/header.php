@@ -14,10 +14,17 @@ if ( ! defined( 'APP' ) ) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11594809-18"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-11594809-18');
+</script>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><?php echo $config['app'] . ' - ' . $config['tagline']; ?></title>
+<title><?php if ( isset( $open_graph ) && isset( $open_graph['title'] ) ) { echo $open_graph['title']; } else { echo $config['app'] . ' - ' . $config['tagline']; } ?></title>
 <meta name="robots" content="noodp">
 <meta name="description" content="<?php echo $config['description']; ?>">
 <meta name="keywords" content="<?php echo $config['keywords']; ?>">
@@ -39,9 +46,7 @@ if ( ! defined( 'APP' ) ) {
 
 						<div class="s-sm-8">
 							<ul class="navigation">
-								<li><span><a href="<?php echo $config['url']; ?>/themes.php">Themes</a></span></li>
-								<li><span><a href="<?php echo $config['url']; ?>/blog/">Blog</a></span></li>
-								<li><span><a href="<?php echo $config['url']; ?>/contact.php">Contact</a></span></li>
+								<li><span><a href="<?php echo $config['url']; ?>/themes.php"<?php if ( isset( $slug ) && 'themes' == $slug ) { echo ' class="active"'; } ?>>Themes</a></span></li>
 								<!-- <li><span>more coming soon..</span></li> -->
 							</ul><!-- .navigation -->
 						</div><!-- .s-sm-8 -->

@@ -93,6 +93,10 @@ b, strong {
 dfn, em, i {
 	font-style: italic;
 }
+img {
+	display: block;
+	max-width: 100%;
+}
 
 
 /**
@@ -158,6 +162,9 @@ header {
 .navigation > li:first-child {
 	margin: 0;
 }
+.navigation li a.active {
+	font-weight: 700;
+}
 
 /* --- Page --- */
 .section-top {
@@ -193,6 +200,42 @@ header {
 }
 .social span {
 	position: relative;
+}
+.theme-content {
+	padding: 50px 0;
+}
+.theme-intro {
+	background: #ffffff;
+	padding-bottom: 50px;
+}
+.theme-content h1 {
+	margin-bottom: 12px;
+}
+.theme-intro p {
+	margin: 0;
+}
+.theme-description {
+	font-size: 20px;
+	font-size: 1.250rem;
+}
+.theme-content .theme-buttons {
+	margin: 0;
+}
+.theme-content .button {
+	display: inline-block;
+	font-size: 18px;
+	font-size: 1.125rem;
+	padding: 6px 9px;
+	border: 1px solid #101010;
+}
+.theme-content .button:hover,
+.theme-content .button:focus,
+.theme-content .button:active {
+	border-color: transparent;
+}
+.theme-content .button.download {
+	background: #101010;
+	color: #ffffff;
 }
 
 /* --- Clearings --- */
@@ -250,6 +293,9 @@ header {
 		font-size: 24px;
 		font-size: 1.5rem;
 	}
+	.theme-content img {
+		margin-bottom: 24px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -264,7 +310,8 @@ header {
 
 @media (max-width: 479px) {
 	body,
-	a {
+	a,
+	.theme-description {
 		font-size: 18px;
 		font-size: 1.125rem;
 	}

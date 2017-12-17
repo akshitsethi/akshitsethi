@@ -10,8 +10,11 @@
 
 require_once 'init.php';
 
+// Meta
+$slug = 'home';
 
-// opengraph tags
+
+// Open Graph
 $open_graph = array(
 	'twitter_card' 	=> 'photo',
 	'type'			=> 'website',
