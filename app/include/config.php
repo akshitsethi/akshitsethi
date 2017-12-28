@@ -18,15 +18,14 @@ if ( ! defined( 'APP' ) ) {
  */
 
 $config = array(
-
 	'app' 					=> 'Akshit Sethi',
 	'tagline' 				=> 'Full Stack Developer',
 	'url'					=> 'https://localhost/akshitsethi',
 	'domain' 				=> 'akshitsethi.com',
-	'description'  			=> 'Designer + Developer by profession & Entrepreneur by passion. In deep love with WWW and Spanish.',
-	'keywords'				=> 'akshitsethi, akshit sethi, akshit, developer, designer, entrepreneur, web applications, wordpress developer, php, mysql, html5, css, js, es6, jquery, sass, gulp, react, redux, node, lamp, mobile apps',
+	'description'  			=> 'Designer + Developer by profession & Entrepreneur by passion. In deep love with WWW and Spanish. I create premium themes & plugins for WordPress. Building some crazy stuff these days.',
+	'keywords'				=> 'akshitsethi, akshit sethi, akshit, developer, designer, entrepreneur, web applications, wordpress developer, wordpress themes, wordpress plugins, wp news, php, mysql, html5, css, js, javascript developer, es6, jquery, sass, gulp, reactjs, git, react-native, redux, nodejs, lamp, mobile apps',
 	'email' 				=> 'hi@akshitsethi.com',
-	'phone' 				=> '(91) 9871084893',
-	'twitter'				=> '@akshitsethi'
-
+	'phone' 				=> '(91) 8826095893',
+	'twitter'				=> '@akshitsethi',
+	'facebook' 				=> 'akshitsethi'
 );

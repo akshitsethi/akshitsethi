@@ -221,6 +221,9 @@ header {
 .theme-content .theme-buttons {
 	margin: 0;
 }
+.theme-content .theme-buttons.right {
+	text-align: right;
+}
 .theme-content .button {
 	display: inline-block;
 	font-size: 18px;
@@ -236,6 +239,16 @@ header {
 .theme-content .button.download {
 	background: #101010;
 	color: #ffffff;
+}
+.theme-features {
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.theme-features li {
+	list-style: circle;
+	padding: 4px 0;
+	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 /* --- Clearings --- */
@@ -305,6 +318,11 @@ header {
 	}
 	.navigation {
 		text-align: left;
+	}
+	.theme-content .theme-buttons.right {
+		text-align: left;
+		margin-top: -15px;
+		margin-bottom: 25px;
 	}
 }
 

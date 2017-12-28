@@ -13,13 +13,6 @@ if ( ! defined( 'APP' ) ) {
 
 ?>
 
-<div class="theme-intro">
-	<div class="s-container">
-		<p>I create premium <strong>WordPress</strong> themes & plugins.</p>
-		<p>Here is the collection of free themes crafted by me.</p>
-	</div><!-- .s-container -->
-</div><!-- .theme-intro -->
-
 <div class="theme-content">
 	<div class="s-container">
 		<div class="s-row">
@@ -29,10 +22,9 @@ if ( ! defined( 'APP' ) ) {
 
 			<div class="s-md-6">
 				<h1>Moscow</h1>
-				<p class="theme-description">Free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. Compatible upto <strong>WordPress 4.9.2</strong>.</p>
+				<p class="theme-description">Free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs.</p>
 				<p class="theme-buttons">
-					<a href="http://demo.akshitsethi.com/moscow" target="_blank" class="button">Live Demo</a>
-					<a href="<?php echo $config['url']; ?>/products/moscow.zip" target="_blank" class="button download">Download</a>
+					<a href="<?php echo $config['url']; ?>/wordpress-theme/moscow.php" class="button download">Show More</a>
 				</p>
 			</div><!-- .s-md-6 -->
 		</div><!-- .s-row -->

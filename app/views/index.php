@@ -17,7 +17,9 @@ if ( ! defined( 'APP' ) ) {
 	<div class="s-container">
 		<div class="content">
 			<div class="hello">
-				<p>Hola! I'm <span class="text-highlight"><strong>Akshit Sethi</strong></span> and this is my space on the web. <strong>Designer</strong> + <strong>Developer</strong> by profession & <strong>Entrepreneur</strong> by passion. In love with WWW and Spanish. Travel is life. When I am not coding, I am reading anything worth reading. Building some crazy stuff.</p>
+				<p>Hola! I'm <span class="text-highlight"><strong>Akshit Sethi</strong></span> and this is my space on the web. <strong>Designer</strong> + <strong>Developer</strong> by profession & <strong>Entrepreneur</strong> by passion. In love with WWW and Spanish. Travel is life. When I am not coding, I am reading anything worth reading.</p><br/>
+
+				<p>I create premium <strong>WordPress</strong> themes & plugins. Building some crazy stuff these days.</p>
 			</div><!-- .hello -->
 		</div><!-- .content -->
 	</div><!-- .s-container -->
@@ -26,31 +28,37 @@ if ( ! defined( 'APP' ) ) {
 <div class="s-container">
 	<div class="content">
 		<div class="tags">
-			<span><a href="https://twitter.com/search?q=%23sports" target="_blank">#sports</a></span>
-			<span><a href="https://twitter.com/search?q=%23gameofthrones" target="_blank">#gameofthrones</a></span>
-			<span><a href="https://twitter.com/search?q=%23travel" target="_blank">#travel</a></span>
-			<span><a href="https://twitter.com/search?q=%23friends" target="_blank">#friends</a></span>
-			<span><a href="https://twitter.com/search?q=%23movies" target="_blank">#movies</a></span>
-			<span><a href="https://twitter.com/search?q=%23espanol" target="_blank">#espanol</a></span>
-			<span><a href="https://twitter.com/search?q=%23fitness" target="_blank">#fitness</a></span>
+			<h2>#IWorkOn</h2><br/>
+
 			<span><a href="https://twitter.com/search?q=%23php" target="_blank">#php</a></span>
-			<span><a href="https://twitter.com/search?q=%23apps" target="_blank">#apps</a></span>
-			<span><a href="https://twitter.com/search?q=%23party" target="_blank">#party</a></span>
-			<span><a href="https://twitter.com/search?q=%23guitar" target="_blank">#guitar</a></span>
-			<span><a href="https://twitter.com/search?q=%23yoga" target="_blank">#yoga</a></span>
-			<span><a href="https://twitter.com/search?q=%23social" target="_blank">#social</a></span>
-			<span><a href="https://twitter.com/search?q=%23coffee" target="_blank">#coffee</a></span>
-			<span><a href="https://twitter.com/search?q=%23workaholic" target="_blank">#workaholic</a></span>
-			<span><a href="https://twitter.com/search?q=%23foodie" target="_blank">#foodie</a></span>
-			<span><a href="https://twitter.com/search?q=%23www" target="_blank">#www</a></span>
-			<span><a href="https://twitter.com/search?q=%23playstation" target="_blank">#playstation</a></span>
-			<span><a href="https://twitter.com/search?q=%23fashion" target="_blank">#fashion</a></span>
+			<span><a href="https://twitter.com/search?q=%23mysql" target="_blank">#mysql</a></span>
+			<span><a href="https://twitter.com/search?q=%23html" target="_blank">#html</a></span>
+			<span><a href="https://twitter.com/search?q=%23css" target="_blank">#css</a></span>
+			<span><a href="https://twitter.com/search?q=%23javascript" target="_blank">#javascript</a></span>
+			<span><a href="https://twitter.com/search?q=%23es6" target="_blank">#es6</a></span>
+			<span><a href="https://twitter.com/search?q=%23reactjs" target="_blank">#reactjs</a></span>
+			<span><a href="https://twitter.com/search?q=%23redux" target="_blank">#redux</a></span>
+			<span><a href="https://twitter.com/search?q=%23reactnative" target="_blank">#reactnative</a></span>
+			<span><a href="https://twitter.com/search?q=%23mongodb" target="_blank">#mongodb</a></span>
+			<span><a href="https://twitter.com/search?q=%23nodejs" target="_blank">#nodejs</a></span>
+			<span><a href="https://twitter.com/search?q=%23webpack" target="_blank">#webpack</a></span>
+			<span><a href="https://twitter.com/search?q=%23babel" target="_blank">#babel</a></span>
+			<span><a href="https://twitter.com/search?q=%23python" target="_blank">#python</a></span>
+			<span><a href="https://twitter.com/search?q=%23sass" target="_blank">#sass</a></span>
+			<span><a href="https://twitter.com/search?q=%23git" target="_blank">#git</a></span>
+			<span><a href="https://twitter.com/search?q=%23gulp" target="_blank">#gulp</a></span>
+			<span><a href="https://twitter.com/search?q=%23laravel" target="_blank">#laravel</a></span>
+			<span><a href="https://twitter.com/search?q=%23symfony" target="_blank">#symfony</a></span>
+			<span><a href="https://twitter.com/search?q=%23wordpress" target="_blank">#wordpress</a></span>
+			<span><a href="https://twitter.com/search?q=%23woocommerce" target="_blank">#woocommerce</a></span>
 		</div><!-- .tags -->
 
 		<div class="social">
+			<h2>#PingMe</h2><br/>
+
 			<p><span class="gmail"><a href="mailto:hi@akshitsethi.com">Email</a></span></p>
 			<p><span class="twitter"><a href="https://twitter.com/akshitsethi" target="_blank">Twitter</a></span></p>
-			<p><span class="github"><a href="https://github.com/akshitsethi" target="_blank">&lt;github&gt;</a></span></p>
+			<p><span class="github"><a href="https://github.com/akshitsethi" target="_blank">GitHub</a></span></p>
 		</div><!-- .social -->
 	</div><!-- .content -->
 </div><!-- .s-container -->
