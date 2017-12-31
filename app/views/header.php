@@ -45,20 +45,18 @@ gtag('config', 'UA-11594809-18');
 		<div class="section-top">
 			<div class="s-container">
 				<header class="header">
-					<div class="s-row">
-						<div class="s-sm-4">
-							<a href="<?php echo $config['url']; ?>">
-								<img src="<?php echo $config['url']; ?>/app/img/logo-80px.jpg" class="logo" alt="<?php echo $config['app']; ?>" />
-							</a>
-						</div><!-- .s-sm-4 -->
+					<div class="header-logo">
+						<a href="<?php echo $config['url']; ?>">
+							<img src="<?php echo $config['url']; ?>/app/img/logo-80px.jpg" class="logo" alt="<?php echo $config['app']; ?>" />
+						</a>
+					</div><!-- .header-logo -->
 
-						<div class="s-sm-8">
-							<ul class="navigation">
-								<li><span><a href="<?php echo $config['url']; ?>/themes.php"<?php if ( isset( $slug ) && 'themes' == $slug ) { echo ' class="active"'; } ?>>Themes</a></span></li>
-								<!-- <li><span>more coming soon..</span></li> -->
-							</ul><!-- .navigation -->
-						</div><!-- .s-sm-8 -->
-					</div><!-- .s-row -->
+					<div class="navigation">
+						<ul>
+							<li><span><a href="<?php echo $config['url']; ?>/themes.php"<?php if ( isset( $slug ) && 'themes' == $slug ) { echo ' class="active"'; } ?>>Themes</a></span></li>
+							<li><span><a href="<?php echo $config['url']; ?>/plugins.php"<?php if ( isset( $slug ) && 'plugins' == $slug ) { echo ' class="active"'; } ?>>Plugins</a></span></li>
+						</ul>
+					</div><!-- .navigation -->
 				</header><!-- .header -->
 			</div><!-- .s-container -->
 		</div><!-- .section-top -->

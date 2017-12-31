@@ -146,23 +146,33 @@ a:focus {
 header {
 	padding: 50px 0;
 }
-.logo {
-	display: block;
+.header-logo,
+.navigation {
+	float: left;
+	width: 40%;
+	height: 80px;
+}
+.header-logo a {
+	display: inline-block;
 }
 .navigation {
+	float: right;
+	width: 60%;
 	text-align: right;
+}
+.navigation ul {
 	list-style: none;
 }
-.navigation > li {
+.navigation ul > li {
 	display: inline-block;
 	margin-left: 20px;
 	font-size: 1.25rem;
 	line-height: 80px;
 }
-.navigation > li:first-child {
+.navigation ul > li:first-child {
 	margin: 0;
 }
-.navigation li a.active {
+.navigation ul li a.active {
 	font-weight: 700;
 }
 
@@ -253,11 +263,13 @@ header {
 
 /* --- Clearings --- */
 .s-row:before, .s-row:after,
+.header:before, .header:after,
 .social:before, .social:after {
 	display: table;
 	content: ' ';
 }
 .s-row:after,
+.header:after,
 .social:after {
 	clear: both;
 }
@@ -315,9 +327,6 @@ header {
 	body {
 		font-size: 20px;
 		font-size: 1.250rem;
-	}
-	.navigation {
-		text-align: left;
 	}
 	.theme-content .theme-buttons.right {
 		text-align: left;

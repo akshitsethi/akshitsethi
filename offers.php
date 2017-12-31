@@ -16,14 +16,14 @@ if ( isset( $_GET['product'] ) ) {
 
 	// Ensuring that the product is not empty.
 	if ( ! empty( $product ) ) {
-		if ( 'csmm' == $product ) {
-			echo '<p style="padding: 10px; background: #FFFBCC">Stuberry is a theme built for a better reading experience. It\'s clean & creative approach towards user interface, strong emphasis on search engine compatibility, and easy setup makes it well suited for both personal & magazine blogs. <a href="https://www.mojomarketplace.com/item/stuberry-beautifully-crafted-wordpress-theme" target="_blank">Click here</a> to know more.</p>';
+		if ( 'mmcs' == $product ) {
+			echo '<p style="padding: 10px; background: #ecf8fe"><strong>Moscow</strong> is a free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. <a href="http://www.akshitsethi.com/wordpress-theme/moscow.php" target="_blank">Get Moscow</a></p>';
 		} else {
-			echo '<p style="padding: 10px; background: #FFFBCC">Stuberry is a theme built for a better reading experience. It\'s clean & creative approach towards user interface, strong emphasis on search engine compatibility, and easy setup makes it well suited for both personal & magazine blogs. <a href="https://www.mojomarketplace.com/item/stuberry-beautifully-crafted-wordpress-theme" target="_blank">Click here</a> to know more.</p>';
+			echo '<p style="padding: 10px; background: #ecf8fe"><strong>Moscow</strong> is a free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. <a href="http://www.akshitsethi.com/wordpress-theme/moscow.php" target="_blank">Get Moscow</a></p>';
 		}
 	} else {
-		echo '<p style="padding: 10px; background: #FFFBCC">Stuberry is a theme built for a better reading experience. It\'s clean & creative approach towards user interface, strong emphasis on search engine compatibility, and easy setup makes it well suited for both personal & magazine blogs. <a href="https://www.mojomarketplace.com/item/stuberry-beautifully-crafted-wordpress-theme" target="_blank">Click here</a> to know more.</p>';
+		echo '<p style="padding: 10px; background: #ecf8fe"><strong>Moscow</strong> is a free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. <a href="http://www.akshitsethi.com/wordpress-theme/moscow.php" target="_blank">Get Moscow</a></p>';
 	}
 } else {
-	echo '<p style="padding: 10px; background: #FFFBCC">Stuberry is a theme built for a better reading experience. It\'s clean & creative approach towards user interface, strong emphasis on search engine compatibility, and easy setup makes it well suited for both personal & magazine blogs. <a href="https://www.mojomarketplace.com/item/stuberry-beautifully-crafted-wordpress-theme" target="_blank">Click here</a> to know more.</p>';
+	echo '<p style="padding: 10px; background: #ecf8fe"><strong>Moscow</strong> is a free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. <a href="http://www.akshitsethi.com/wordpress-theme/moscow.php" target="_blank">Get Moscow</a></p>';
 }
