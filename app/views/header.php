@@ -55,6 +55,7 @@ gtag('config', 'UA-11594809-18');
 						<ul>
 							<li><span><a href="<?php echo $config['url']; ?>/themes.php"<?php if ( isset( $slug ) && 'themes' == $slug ) { echo ' class="active"'; } ?>>Themes</a></span></li>
 							<li><span><a href="<?php echo $config['url']; ?>/plugins.php"<?php if ( isset( $slug ) && 'plugins' == $slug ) { echo ' class="active"'; } ?>>Plugins</a></span></li>
+							<li><span><a href="<?php echo $config['url']; ?>/services.php"<?php if ( isset( $slug ) && 'services' == $slug ) { echo ' class="active"'; } ?>>Services</a></span></li>
 						</ul>
 
 						<a href="javascript:;" class="trigger-menu">
