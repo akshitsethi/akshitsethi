@@ -15,6 +15,7 @@ if ( ! defined( 'APP' ) ) {
 
 </div><!-- #page -->
 
+<script type="text/javascript" src="<?php echo $config['url']; ?>/app/js/app.js"></script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

@@ -56,7 +56,13 @@ gtag('config', 'UA-11594809-18');
 							<li><span><a href="<?php echo $config['url']; ?>/themes.php"<?php if ( isset( $slug ) && 'themes' == $slug ) { echo ' class="active"'; } ?>>Themes</a></span></li>
 							<li><span><a href="<?php echo $config['url']; ?>/plugins.php"<?php if ( isset( $slug ) && 'plugins' == $slug ) { echo ' class="active"'; } ?>>Plugins</a></span></li>
 						</ul>
+
+						<a href="javascript:;" class="trigger-menu">
+							<span></span>
+						</a><!-- .trigger-menu -->
 					</div><!-- .navigation -->
+
+					<div class="mobile-content"></div><!-- .mobile-content -->
 				</header><!-- .header -->
 			</div><!-- .s-container -->
 		</div><!-- .section-top -->

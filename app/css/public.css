@@ -175,6 +175,100 @@ header {
 .navigation ul li a.active {
 	font-weight: 700;
 }
+.trigger-menu {
+	float: right;
+	position: relative;
+	display: none;
+	vertical-align: 0;
+	height: 80px;
+	width: 30px;
+}
+.trigger-menu span {
+	margin: 0 auto;
+	position: relative;
+	top: 39px;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+	-webkit-transition-duration: 0s;
+	transition-duration: 0s;
+}
+.trigger-menu span:before,
+.trigger-menu span:after {
+	content: '';
+	position: absolute;
+}
+.trigger-menu span:after,
+.trigger-menu span:before {
+	background-color: #090909;
+	display: block;
+	height: 2px;
+	width: 30px;
+}
+.trigger-menu span:before {
+	margin-top: -4px;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: margin, -webkit-transform;
+}
+.trigger-menu span:after {
+	margin-top: 4px;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: margin, -webkit-transform;
+}
+.trigger-menu.active span {
+	background-color: rgba(0,0,0,0.0);
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+.trigger-menu.active span:before {
+	margin-top: 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+.trigger-menu.active span:after {
+	margin-top: 0;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+.mobile-content {
+	display: none;
+	padding-top: 90px;
+}
+.mobile-content .mobile-navigation-menu li {
+	display: block;
+	margin: 0;
+	border-bottom: 1px solid #eeeeee;
+}
+.mobile-content .mobile-navigation-menu li:last-child {
+	border-bottom: 0;
+}
+.mobile-content .mobile-navigation-menu li a {
+	display: block;
+	padding: 10px 0;
+}
+.mobile-content .mobile-navigation-menu li ul {
+	display: none;	
+}
+.mobile-content .social-links {
+	display: block;
+	padding: 18px 12px 6px;
+	margin: 0;
+	border-top: 1px solid #eeeeee;
+}
+.mobile-content .social-links li {
+	margin-right: 16px;
+}
 
 /* --- Page --- */
 .section-top {
@@ -327,6 +421,12 @@ header {
 	body {
 		font-size: 20px;
 		font-size: 1.250rem;
+	}
+	.navigation ul {
+		display: none;
+	}
+	.trigger-menu {
+		display: block;
 	}
 	.theme-content .theme-buttons.right {
 		text-align: left;
