@@ -353,6 +353,12 @@ header {
 .social span {
 	position: relative;
 }
+.theme {
+	margin-bottom: 50px;
+}
+.theme:last-child {
+	margin: 0;
+}
 .theme-content {
 	padding: 50px 0;
 }
@@ -378,6 +384,7 @@ header {
 }
 .theme-content .button {
 	display: inline-block;
+	font-family: 'Source Code Pro', Arial, sans-serif;
 	font-size: 18px;
 	font-size: 1.125rem;
 	padding: 6px 9px;
@@ -402,11 +409,20 @@ header {
 	font-size: 18px;
 	font-size: 1.125rem;
 }
+.order-response {
+	font-size: 1.250rem;
+}
+.paypal-form a,
+.paypal-form button {
+	float: right;
+	margin-left: 10px;
+}
 
 /* --- Clearings --- */
 .s-row:before, .s-row:after,
 .header:before, .header:after,
 .services:before, .services:after,
+.paypal-form:before, .paypal-form:after,
 .social:before, .social:after {
 	display: table;
 	content: ' ';
@@ -414,6 +430,7 @@ header {
 .s-row:after,
 .header:after,
 .services:after,
+.paypal-form:after,
 .social:after {
 	clear: both;
 }
@@ -485,10 +502,17 @@ header {
 	.trigger-menu {
 		display: block;
 	}
+	.theme-content .paypal-form a,
+	.theme-content .paypal-form button {
+		float: left;
+	}
 	.theme-content .theme-buttons.right {
 		text-align: left;
 		margin-top: -15px;
 		margin-bottom: 25px;
+	}
+	.theme-content .paypal-form button {
+		margin-left: 0;
 	}
 	.services .column {
 		width: 50%;

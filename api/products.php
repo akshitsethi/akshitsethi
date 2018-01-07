@@ -25,7 +25,7 @@ $response = array(
 
 $themes = array(
 	'moscow',
-	'pulp'
+	'classico'
 );
 
 // Moscow
@@ -37,13 +37,13 @@ $moscow = array(
 	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/moscow.zip'
 );
 
-// Pulp
-$pulp 	= array(
-	'name' 			=> 'Pulp',
-	'slug' 			=> 'pulp',
+// Classico
+$classico = array(
+	'name' 			=> 'Classico',
+	'slug' 			=> 'classico',
 	'version' 		=> '1.0',
-	'details_url' 	=> 'http://www.akshitsethi.com/api/themes/pulp.php',
-	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/pulp.zip'
+	'details_url' 	=> 'http://www.akshitsethi.com/api/themes/classico.php',
+	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/classico.zip'
 );
 
 
@@ -66,7 +66,7 @@ if ( isset( $_GET['slug'] ) ) {
 
 $data = array(
 	'moscow' 	=> $moscow,
-	'pulp' 		=> $pulp
+	'classico' 	=> $classico
 );
 
 
