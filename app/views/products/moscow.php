@@ -22,7 +22,7 @@ if ( ! defined( 'APP' ) ) {
 			</div><!-- .s-md-8 -->
 
 			<div class="s-md-4 s-sm-5">
-				<div class="theme-buttons right">
+				<div class="theme-buttons right paypal-form">
 					<a href="http://demo.akshitsethi.com/moscow" target="_blank" class="button">Live Demo</a>
 					<a href="<?php echo $config['url']; ?>/products/moscow.zip" target="_blank" class="button download">Download</a>
 				</div><!-- .theme-buttons -->

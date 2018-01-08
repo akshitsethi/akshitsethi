@@ -23,7 +23,9 @@ if ( ! defined( 'APP' ) ) {
 
 			<div class="s-md-4 s-sm-5">
 				<div class="theme-buttons right paypal-form">
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<a href="http://demo.akshitsethi.com/classico" target="_blank" class="button">Live Demo</a>
+					<a href="<?php echo $config['url']; ?>/products/classico.zip" target="_blank" class="button download">Download</a>
+					<!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 						<input type="hidden" name="cmd" value="_xclick">
 						<input type="hidden" name="business" value="hi@akshitsethi.com">
 						<input type="hidden" name="lc" value="IN">
@@ -38,9 +40,7 @@ if ( ! defined( 'APP' ) ) {
 						<input type="hidden" name="cancel_return" value="<?php echo $config['url']; ?>/cancel.php">
 						<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
 						<button type="submit" name="submit" class="button download">Buy Now for <strong>$49</strong></button>
-					</form>
-
-					<a href="http://demo.akshitsethi.com/classico" target="_blank" class="button">Live Demo</a>
+					</form> -->
 				</div><!-- .theme-buttons -->
 			</div><!-- .s-md-4 -->
 		</div><!-- .s-row -->

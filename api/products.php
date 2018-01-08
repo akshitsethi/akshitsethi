@@ -32,7 +32,7 @@ $themes = array(
 $moscow = array(
 	'name' 			=> 'Moscow',
 	'slug' 			=> 'moscow',
-	'version' 		=> '1.0',
+	'version' 		=> '1.0.2',
 	'details_url' 	=> 'http://www.akshitsethi.com/api/themes/moscow.php',
 	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/moscow.zip'
 );
