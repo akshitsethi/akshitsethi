@@ -36,6 +36,11 @@ require_once APP_PATH . '/app/views/header.php';
 	<div class="s-container">
 		<h3>Changelog - Classico WordPress Theme</h3><br/><br/>
 
+		<p><strong>v1.0.1</strong></p>
+		<ul class="changelog theme-features">
+			<li>Issue with Instagram footer section has been fixed</li>
+		</ul><br/><br/>
+
 		<p><strong>v1.0</strong></p>
 		<ul class="changelog theme-features">
 			<li>Initial release</li>

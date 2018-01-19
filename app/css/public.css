@@ -511,7 +511,7 @@ header {
 		margin-top: -15px;
 		margin-bottom: 25px;
 	}
-	.theme-content .paypal-form button {
+	.theme-content .paypal-form .button:first-child {
 		margin-left: 0;
 	}
 	.services .column {
