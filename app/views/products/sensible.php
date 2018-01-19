@@ -39,7 +39,7 @@ if ( ! defined( 'APP' ) ) {
 				
 				<ul class="theme-features">
 					<li>40+ configuration options</li>
-					<li>Featured section (5 styles)</li>
+					<li>Featured section</li>
 					<li>Valid HTML5 markup</li>
 					<li>2 Post styles</li>
 					<li>5 Blog styles</li>
@@ -59,3 +59,12 @@ if ( ! defined( 'APP' ) ) {
 		</div><!-- .s-row -->
 	</div><!-- .s-container -->
 </div><!-- .theme-content -->
+
+<div class="share-content">
+	<div class="fb-share-button" data-href="http://www.akshitsethi.com/wordpress-theme/sensible.php" data-layout="button" data-size="large" data-mobile-iframe="true">
+		<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.akshitsethi.com%2Fwordpress-theme%2Fsensible.php&amp;src=sdkpreparse">Share</a>
+	</div>
+
+	<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Sensible%20-%20%23WordPress%20theme%20for%20your%20%23website.%20Download%20now%20for%20%23free. %23WordPressTheme%20%23Freebie%20%F0%9F%98%BB%F0%9F%98%87" data-size="large">Tweet</a>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><!-- .share-content -->

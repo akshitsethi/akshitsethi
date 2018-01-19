@@ -418,6 +418,21 @@ header {
 	margin-left: 10px;
 }
 
+/* --- Sharing --- */
+.share-content {
+	position: fixed;
+	bottom: 0;
+	padding: 15px 0;
+}
+.fb-share-button,
+.twitter-share-button {
+	float: right;
+	vertical-align: 0;
+}
+.twitter-share-button {
+	margin: 3px 5px 0;
+}
+
 /* --- Clearings --- */
 .s-row:before, .s-row:after,
 .header:before, .header:after,
@@ -520,6 +535,9 @@ header {
 	}
 	.tile-box .symbol {
 		font-size: 55px;
+	}
+	.twitter-share-button {
+		margin-top: 0;
 	}
 }
 

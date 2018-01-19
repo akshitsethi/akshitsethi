@@ -25,22 +25,6 @@ if ( ! defined( 'APP' ) ) {
 				<div class="theme-buttons right paypal-form">
 					<a href="http://demo.akshitsethi.com/classico" target="_blank" class="button">Live Demo</a>
 					<a href="<?php echo $config['url']; ?>/products/classico.zip" target="_blank" class="button download">Download</a>
-					<!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-						<input type="hidden" name="cmd" value="_xclick">
-						<input type="hidden" name="business" value="hi@akshitsethi.com">
-						<input type="hidden" name="lc" value="IN">
-						<input type="hidden" name="item_name" value="Classico - WordPress Theme">
-						<input type="hidden" name="amount" value="49.00">
-						<input type="hidden" name="currency_code" value="USD">
-						<input type="hidden" name="button_subtype" value="services">
-						<input type="hidden" name="no_note" value="1">
-						<input type="hidden" name="no_shipping" value="1">
-						<input type="hidden" name="rm" value="1">
-						<input type="hidden" name="return" value="<?php echo $config['url']; ?>/success.php">
-						<input type="hidden" name="cancel_return" value="<?php echo $config['url']; ?>/cancel.php">
-						<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
-						<button type="submit" name="submit" class="button download">Buy Now for <strong>$49</strong></button>
-					</form> -->
 				</div><!-- .theme-buttons -->
 			</div><!-- .s-md-4 -->
 		</div><!-- .s-row -->
@@ -75,3 +59,12 @@ if ( ! defined( 'APP' ) ) {
 		</div><!-- .s-row -->
 	</div><!-- .s-container -->
 </div><!-- .theme-content -->
+
+<div class="share-content">
+	<div class="fb-share-button" data-href="http://www.akshitsethi.com/wordpress-theme/classico.php" data-layout="button" data-size="large" data-mobile-iframe="true">
+		<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.akshitsethi.com%2Fwordpress-theme%2Fclassico.php&amp;src=sdkpreparse">Share</a>
+	</div>
+
+	<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Classico%20-%20%23WordPress%20theme%20for%20your%20%23website.%20Download%20now%20for%20%23free. %23WordPressTheme%20%23Freebie%20%F0%9F%98%BB%F0%9F%98%87" data-size="large">Tweet</a>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><!-- .share-content -->
