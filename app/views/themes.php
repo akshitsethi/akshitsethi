@@ -18,6 +18,22 @@ if ( ! defined( 'APP' ) ) {
 		<div class="theme">
 			<div class="s-row">
 				<div class="s-md-6">
+					<img src="<?php echo $config['url']; ?>/app/img/products/lady.jpg" alt="Lady - WordPress Theme" />
+				</div><!-- .s-md-6 -->
+
+				<div class="s-md-6">
+					<h1>Lady</h1>
+					<p class="theme-description">Lady is a WordPress theme that will appeal to those who like a minimal style with feminine touches. It is designed for bloggers and comes "out of the box" with a beautiful color and typography palette.</p>
+					<p class="theme-buttons">
+						<a href="<?php echo $config['url']; ?>/wordpress-theme/lady.php" class="button download">Show More</a>
+					</p>
+				</div><!-- .s-md-6 -->
+			</div><!-- .s-row -->
+		</div><!-- .theme -->
+
+		<div class="theme">
+			<div class="s-row">
+				<div class="s-md-6">
 					<img src="<?php echo $config['url']; ?>/app/img/products/sensible.jpg" alt="Sensible - WordPress Theme" />
 				</div><!-- .s-md-6 -->
 

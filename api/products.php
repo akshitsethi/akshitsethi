@@ -27,7 +27,8 @@ $themes = array(
 	'moscow',
 	'classico',
 	'bland',
-	'sensible'
+	'sensible',
+	'lady'
 );
 
 // Moscow
@@ -43,7 +44,7 @@ $moscow = array(
 $classico = array(
 	'name' 			=> 'Classico',
 	'slug' 			=> 'classico',
-	'version' 		=> '1.0.1',
+	'version' 		=> '1.0.2',
 	'details_url' 	=> 'http://www.akshitsethi.com/api/themes/classico.php',
 	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/classico.zip'
 );
@@ -69,6 +70,16 @@ $sensible = array(
 );
 
 
+// Lady
+$lady = array(
+	'name' 			=> 'Lady',
+	'slug' 			=> 'lady',
+	'version' 		=> '1.0',
+	'details_url' 	=> 'http://www.akshitsethi.com/api/themes/lady.php',
+	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/lady.zip'
+);
+
+
 // Request
 // -------------------------------------------------------
 
@@ -90,7 +101,8 @@ $data = array(
 	'moscow' 	=> $moscow,
 	'classico' 	=> $classico,
 	'bland' 	=> $bland,
-	'sensible' 	=> $sensible
+	'sensible' 	=> $sensible,
+	'lady' 		=> $lady
 );
 
 
