@@ -18,7 +18,7 @@ if ( ! defined( 'APP' ) ) {
 		<div class="s-row">
 			<div class="s-md-8 s-sm-7">
 				<h1>Lady</h1>
-				<p class="theme-description">Lady is a WordPress theme that will appeal to those who like a minimal style with feminine touches. It is designed for bloggers and comes "out of the box" with a beautiful color and typography palette. <strong>Compatible upto WordPress 4.9.2</strong></p>
+				<p class="theme-description">Lady is a WordPress theme that will appeal to those who like a minimal style with feminine touches. It is designed for bloggers and comes "out of the box" with a beautiful color and typography palette. <strong>Compatible upto WordPress 4.9.4</strong></p>
 			</div><!-- .s-md-8 -->
 
 			<div class="s-md-4 s-sm-5">

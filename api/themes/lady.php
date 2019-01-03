@@ -36,6 +36,13 @@ require_once APP_PATH . '/app/views/header.php';
 	<div class="s-container">
 		<h3>Changelog - Lady WordPress Theme</h3><br/><br/>
 
+		<p><strong>v1.1.0</strong></p>
+		<ul class="changelog theme-features">
+			<li>Issue with Instagram footer section has been fixed</li>
+			<li>Widgets have been removed from the theme and comes seperately as a plugin</li>
+			<li>Facebook, Twitter, and Instagram widgets have been added</li>
+		</ul><br/><br/>
+
 		<p><strong>v1.0</strong></p>
 		<ul class="changelog theme-features">
 			<li>Initial release</li>

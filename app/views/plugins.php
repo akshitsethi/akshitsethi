@@ -30,3 +30,21 @@ if ( ! defined( 'APP' ) ) {
 		</div><!-- .s-row -->
 	</div><!-- .s-container -->
 </div><!-- .theme-content -->
+
+<div class="theme-content">
+	<div class="s-container">
+		<div class="s-row">
+			<div class="s-md-6">
+				<img src="<?php echo $config['url']; ?>/app/img/products/widgets-bundle.jpg" alt="Widgets Bundle - WordPress Plugin" />
+			</div><!-- .s-md-6 -->
+
+			<div class="s-md-6">
+				<h1>Widgets Bundle</h1>
+				<p class="theme-description">Widgets are great and adds more power to your website. <strong>Widgets Bundle</strong> comes powerpacked with 11 awesome widgets to power up and add more features to your website.</p>
+				<p class="theme-buttons">
+					<a href="<?php echo $config['url']; ?>/wordpress-plugin/widgets-bundle.php" class="button download">Show More</a>
+				</p>
+			</div><!-- .s-md-6 -->
+		</div><!-- .s-row -->
+	</div><!-- .s-container -->
+</div><!-- .theme-content -->

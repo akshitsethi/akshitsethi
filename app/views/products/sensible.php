@@ -18,7 +18,7 @@ if ( ! defined( 'APP' ) ) {
 		<div class="s-row">
 			<div class="s-md-8 s-sm-7">
 				<h1>Sensible</h1>
-				<p class="theme-description">Sensible is a WordPress theme with a clean & refreshing approach. It's minimal user interface, search engine compatibility, and super easy setup makes it the perfect choice for modern day bloggers. In short, it's for anyone and everyone. <strong>Compatible upto WordPress 4.9.2</strong></p>
+				<p class="theme-description">Sensible is a WordPress theme with a clean & refreshing approach. It's minimal user interface, search engine compatibility, and super easy setup makes it the perfect choice for modern day bloggers. In short, it's for anyone and everyone. <strong>Compatible upto WordPress 4.9.4</strong></p>
 			</div><!-- .s-md-8 -->
 
 			<div class="s-md-4 s-sm-5">

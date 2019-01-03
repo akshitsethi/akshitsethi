@@ -10,20 +10,20 @@
 
 require_once 'init.php';
 
-// Checking for the product in the $_GET variable
+// Default
+$offer = '<strong>Moscow</strong> is a free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. <a href="http://www.akshitsethi.com/wordpress-theme/moscow.php" target="_blank">Get Moscow</a>';
+
+// Check Product
 if ( isset( $_GET['product'] ) ) {
 	$product = clean_input( $_GET['product'] );
 
-	// Ensuring that the product is not empty.
+	// Product Specific Offers
 	if ( ! empty( $product ) ) {
 		if ( 'mmcs' == $product ) {
-			echo '<p style="padding: 10px; background: #ecf8fe"><strong>Moscow</strong> is a free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. <a href="http://www.akshitsethi.com/wordpress-theme/moscow.php" target="_blank">Get Moscow</a></p>';
-		} else {
-			echo '<p style="padding: 10px; background: #ecf8fe"><strong>Moscow</strong> is a free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. <a href="http://www.akshitsethi.com/wordpress-theme/moscow.php" target="_blank">Get Moscow</a></p>';
+			$offer = '<strong>Moscow</strong> is a free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. <a href="http://www.akshitsethi.com/wordpress-theme/moscow.php" target="_blank">Get Moscow</a>';
 		}
-	} else {
-		echo '<p style="padding: 10px; background: #ecf8fe"><strong>Moscow</strong> is a free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. <a href="http://www.akshitsethi.com/wordpress-theme/moscow.php" target="_blank">Get Moscow</a></p>';
 	}
-} else {
-	echo '<p style="padding: 10px; background: #ecf8fe"><strong>Moscow</strong> is a free WordPress theme that is lightweight, fast and easy to customize. It is perfect for personal, fashion, travel, food, and lifestyle blogs. <a href="http://www.akshitsethi.com/wordpress-theme/moscow.php" target="_blank">Get Moscow</a></p>';
 }
+
+// Echo
+echo $offer;

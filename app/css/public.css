@@ -409,6 +409,13 @@ header {
 	font-size: 18px;
 	font-size: 1.125rem;
 }
+.theme-features li ul {
+	margin: 10px 0 10px 20px;
+	list-style-type: disc;
+}
+.theme-features li ul li {
+	font-size: 1rem;
+}
 .order-response {
 	font-size: 1.250rem;
 }

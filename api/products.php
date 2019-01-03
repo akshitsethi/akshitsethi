@@ -35,7 +35,7 @@ $themes = array(
 $moscow = array(
 	'name' 			=> 'Moscow',
 	'slug' 			=> 'moscow',
-	'version' 		=> '1.0.3',
+	'version' 		=> '1.1.0',
 	'details_url' 	=> 'http://www.akshitsethi.com/api/themes/moscow.php',
 	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/moscow.zip'
 );
@@ -44,7 +44,7 @@ $moscow = array(
 $classico = array(
 	'name' 			=> 'Classico',
 	'slug' 			=> 'classico',
-	'version' 		=> '1.0.2',
+	'version' 		=> '1.1.0',
 	'details_url' 	=> 'http://www.akshitsethi.com/api/themes/classico.php',
 	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/classico.zip'
 );
@@ -54,7 +54,7 @@ $classico = array(
 $bland = array(
 	'name' 			=> 'Bland',
 	'slug' 			=> 'bland',
-	'version' 		=> '1.0',
+	'version' 		=> '1.1.0',
 	'details_url' 	=> 'http://www.akshitsethi.com/api/themes/bland.php',
 	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/bland.zip'
 );
@@ -64,7 +64,7 @@ $bland = array(
 $sensible = array(
 	'name' 			=> 'Sensible',
 	'slug' 			=> 'sensible',
-	'version' 		=> '1.0',
+	'version' 		=> '1.1.0',
 	'details_url' 	=> 'http://www.akshitsethi.com/api/themes/sensible.php',
 	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/sensible.zip'
 );
@@ -74,7 +74,7 @@ $sensible = array(
 $lady = array(
 	'name' 			=> 'Lady',
 	'slug' 			=> 'lady',
-	'version' 		=> '1.0',
+	'version' 		=> '1.1.0',
 	'details_url' 	=> 'http://www.akshitsethi.com/api/themes/lady.php',
 	'download_url' 	=> 'http://www.akshitsethi.com/files/remote/updates/lady.zip'
 );
