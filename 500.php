@@ -2,37 +2,21 @@
 
 /**
  * 500.php
+ * Page for 500 (server) error.
  *
- * @author akshitsethi
- * -------------------------------------------------------
+ * @package akshitsethi
  */
 
-require_once 'init.php';
+// Meta values.
+$meta = [
+	'title' => 'Server error (500) - Akshit Sethi'
+];
 
+// Header.
+require_once __DIR__ . '/app/views/header.php';
 
-// meta
-// -------------------------------------------------------
+// Content.
+require_once __DIR__ . '/app/views/500.php';
 
-$meta = array(
-	'slug' 		=> '500',
-	'title' 	=> '500 - Internal Server Error',
-	'exception' => true
-);
-
-
-// header.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/header.php';
-
-
-// 500.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/500.php';
-
-
-// footer.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/footer.php';
+// Footer.
+require_once __DIR__ . '/app/views/footer.php';

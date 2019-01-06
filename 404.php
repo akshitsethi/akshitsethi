@@ -2,37 +2,21 @@
 
 /**
  * 404.php
+ * Page for 404 (page not found) error.
  *
- * @author akshitsethi
- * -------------------------------------------------------
+ * @package akshitsethi
  */
 
-require_once 'init.php';
+// Meta values.
+$meta = [
+	'title' => 'Page not found (404) - Akshit Sethi'
+];
 
+// Header.
+require_once __DIR__ . '/app/views/header.php';
 
-// meta
-// -------------------------------------------------------
+// Content.
+require_once __DIR__ . '/app/views/404.php';
 
-$meta = array(
-	'slug' 		=> '404',
-	'title' 	=> '404 - Page not Found',
-	'exception' => true
-);
-
-
-// header.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/header.php';
-
-
-// 404.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/404.php';
-
-
-// footer.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/footer.php';
+// Footer.
+require_once __DIR__ . '/app/views/footer.php';

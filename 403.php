@@ -2,37 +2,21 @@
 
 /**
  * 403.php
+ * Page for 403 (forbidden) error.
  *
- * @author akshitsethi
- * -------------------------------------------------------
+ * @package akshitsethi
  */
 
-require_once 'init.php';
+// Meta values.
+$meta = [
+	'title' => 'Forbidden (403) - Akshit Sethi'
+];
 
+// Header.
+require_once __DIR__ . '/app/views/header.php';
 
-// meta
-// -------------------------------------------------------
+// Content.
+require_once __DIR__ . '/app/views/403.php';
 
-$meta = array(
-	'slug' 		=> '403',
-	'title' 	=> '403 - Forbidden',
-	'exception' => true
-);
-
-
-// header.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/header.php';
-
-
-// 403.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/403.php';
-
-
-// footer.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/footer.php';
+// Footer.
+require_once __DIR__ . '/app/views/footer.php';

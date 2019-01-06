@@ -2,42 +2,21 @@
 
 /**
  * index.php
- * Main application file.
+ * Main page for the application.
  *
- * @author akshitsethi
- * -------------------------------------------------------
+ * @package akshitsethi
  */
 
-require_once 'init.php';
+// Meta values.
+$meta = [
+	'title' => 'Akshit Sethi - Full Stack Developer'
+];
 
-// Meta
-$slug = 'home';
+// Header.
+require_once __DIR__ . '/app/views/header.php';
 
+// Content.
+require_once __DIR__ . '/app/views/index.php';
 
-// Open Graph
-$open_graph = array(
-	'twitter_card' 	=> 'photo',
-	'type'			=> 'website',
-	'url'			=> $config['url'],
-	'description' 	=> $config['description'],
-	'photo' 		=> $config['url'] . '/app/img/logo.png',
-	'title' 		=> $config['app'] . ' - ' . $config['tagline']
-);
-
-
-// header.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/header.php';
-
-
-// index.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/index.php';
-
-
-// footer.php
-// -------------------------------------------------------
-
-require_once APP_PATH . '/app/views/footer.php';
+// Footer.
+require_once __DIR__ . '/app/views/footer.php';
