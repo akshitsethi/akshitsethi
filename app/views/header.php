@@ -3,7 +3,7 @@
 /**
  * View: Header.
  *
- * @package storypulp
+ * @package akshitsethi
  */
 
 ?><!DOCTYPE html>

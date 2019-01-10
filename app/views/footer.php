@@ -3,7 +3,7 @@
 /**
  * View: Footer.
  *
- * @package storypulp
+ * @package akshitsethi
  */
 
 ?>
