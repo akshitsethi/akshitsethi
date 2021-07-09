@@ -1,0 +1,19 @@
+ErrorDocument 403 https://akshitsethi.com/403
+ErrorDocument 404 https://akshitsethi.com/404
+ErrorDocument 500 https://akshitsethi.com/500
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
